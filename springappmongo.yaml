@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: kkdevops07/mongospring1
+        image: kkdevops07/mongospring1:latest
 
         ports:
         - containerPort: 8080
